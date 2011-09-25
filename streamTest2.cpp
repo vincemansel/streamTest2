@@ -48,7 +48,7 @@ int main() {
 int main() {
     ifstream in;
     ofstream out;
-    cout << "Opening files now..." << endl;
+    cout << "Re-Opening files now..." << endl;
     string file1 = "README";
     string file2 = "copy.txt";
     in.open(file1.c_str());
@@ -62,6 +62,8 @@ int main() {
     }
     in.close();
     out.close();
+    
+    cout << "Files are closed and the program has completed." << endl;
     
     return 0;
 }
