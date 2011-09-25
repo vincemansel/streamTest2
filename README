@@ -1,0 +1,3 @@
+This project shows a way of using fstream to read and write files.
+There are a few irregularities with using fstream such as use
+of c-strings to address the actual filenames that are opened.

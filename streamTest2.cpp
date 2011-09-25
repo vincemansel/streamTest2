@@ -49,8 +49,10 @@ int main() {
     ifstream in;
     ofstream out;
     cout << "Opening files now..." << endl;
-    in.open("data.txt");
-    out.open("copy.txt");
+    string file1 = "README";
+    string file2 = "copy.txt";
+    in.open(file1.c_str());
+    out.open(file2.c_str());
     if (in.fail() || out.fail()) Error("Can't open files.");
     string line;
     while (true) {
