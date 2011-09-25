@@ -48,6 +48,7 @@ int main() {
 int main() {
     ifstream in;
     ofstream out;
+    cout << "Another test.." << endl;
     cout << "Re-Opening files now..." << endl;
     string file1 = "README";
     string file2 = "copy.txt";
